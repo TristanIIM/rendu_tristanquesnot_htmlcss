@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harry Potter</title>
+    <title>Hog'cards The Game</title>
   </head>
   <body>
+    <div class="background"></div> 
     <header>
       <nav class="nav-bar">
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo-navbar" src="./img/logo hp blanc.png" alt="logo" />
+          </a>
+        </div>
         <ul class="disposition">
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="classes.html">Classes</a></li>
+          <li><a href="collection.html">Collection</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
@@ -20,31 +30,71 @@
     <main>
       <section>
         <div>
-          <h1 class="title-parameter">Présentation de Poudlard</h1>
+          <h1 class="title-parameter">Bienvenue sorcier</h1>
           <article>
             <p class="paragraphe-parameter">
-              L’école de sorcellerie Poudlard a été fondée vers 990 après J.-C.
-              par quatre des plus grands sorciers et magiciens de l’époque :
-              Godric Gryffondor, Helga Poufsouffle, Salazar Serpentard et Rowena
-              Serdaigle. Bien que les quatre sorciers et magiciens aient fondé
-              Poudlard en tant qu’amis, ils avaient chacun une idée différente
-              de la façon dont l’école devait être gérée. Peu après la création
-              de Poudlard, les fondateurs ont présenté les quatre maisons de
-              Poudlard : Gryffondor, Poufsouffle, Serpentard et Serdaigle. Au
-              début de l’école, les quatre fondateurs choisissaient eux-mêmes
-              les élèves de leur maison, en fonction de leur personnalité et de
-              leurs capacités magiques. Cette responsabilité a ensuite été
-              confiée au Choixpeau de Poudlard, qui classait les élèves dans la
-              maison qu’il estimait leur convenir le mieux. Selon le Choixpeau,
-              les Gryffondors sont audacieux, les Poufsouffles sont loyaux, les
-              Serdaigles ont de l’esprit intelligent et les Serpentards sont
-              rusés.
+              Bienvenue sur Hog'cards : The Game, le site pour collectionner tes
+              Hog'cards ! Ouvre, échange et partage tes meilleures cartes avec
+              tes amis et montre au monde entier qui est le plus grand des
+              sorciers !
             </p>
           </article>
         </div>
       </section>
+
+      <section>
+        <h1 class="title-parameter">Principe des cartes</h1>
+        <div class="container">
+          <div class="description">
+            <article>
+              <p class="paragraphe-size">
+                Accumule des cartes au fur et à mesure pour augmenter ta
+                collection et devenir le meilleur sorcier. Les cartes ont
+                différentes valeurs allant de 1 à 5. Échange, améliore et crée
+                ton équipe parfaite ! Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                <a href="collection.html" class="lien-collection">
+                  <h1>Clique ici pour aller voir ta collection</h1>
+                </a>
+              </p>
+            </article>
+          </div>
+          <div class="slider">
+            <div class="image-container">
+              <img src="./img/Harry.png" alt="Harry Potter" />
+              <img src="./img/Malfoy.png" alt="Draco Malfoy" />
+              <img src="./img/Luna.png" alt="Luna Lovegood" />
+              <img src="./img/Cedric.png" alt="Cedric Diggory" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-parameter">
+        <div class="social-logo">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div>
+          <ul class="footer-nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy;2023, Designed by Tristan Quesnot</p>
+      </div>
+    </footer>
   </body>
 </html>
